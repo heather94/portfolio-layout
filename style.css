@@ -1,0 +1,267 @@
+body {
+    font-family: "Montesserat", sans-serif;
+  }
+  h1 {
+    color: #C80004;
+    font-size: 32px;
+  }
+  /*MENU BAR*/
+  .top-menu img {
+    display: block;
+    max-width: 180px;
+    max-height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .top-menu span {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-menu span a {
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    line-height: 30px;
+  }
+  nav a:link{
+    text-decoration: none;
+    color: black;
+  }
+  nav a:visited{
+    color: purple;
+  }
+  nav a:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+  nav a:active{
+    background-color: purple;
+    color: white;
+  }
+/*BOX MENU OPTIONS*/
+
+  .colour-menu {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+  }
+  #Templates {
+    background-color: #C80004;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #WebsiteDesign {
+    background-color: #e46c2b;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #DatabaseDevelopment {
+    background-color: #1b4b23;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Frontendwebsite {
+    background-color: #000437;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  #Templates a:link{
+    color: white;
+    text-decoration: none;
+  }
+  #WebsiteDesign a:link{
+    color: white;
+    text-decoration: none;
+  }
+  #DatabaseDevelopment a:link{
+    color: white;
+    text-decoration: none;
+  }
+  #Frontendwebsite a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  #Templates a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #WebsiteDesign a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #DatabaseDevelopment a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #Frontendwebsite a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  #Templates:hover{
+    background-color: black;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Templates a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #WebsiteDesign:hover{
+    background-color: black;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #WebsiteDesign a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #DatabaseDevelopment:hover{
+    background-color: black;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #DatabaseDevelopment a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #Frontendwebsite:hover{
+    background-color: #000000;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Frontendwebsite a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #Templates:active{
+    background-color: purple;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #WebsiteDesign:active{
+    background-color: purple;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #DatabaseDevelopment:active{
+    background-color: purple;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #Frontendwebsite:active{
+    background-color: purple;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /*BLURB OF SERVICES*/
+  /*REVIEWS*/
